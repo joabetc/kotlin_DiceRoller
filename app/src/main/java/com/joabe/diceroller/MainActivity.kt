@@ -8,7 +8,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var diceImage: ImageView
+    lateinit var diceImage: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
